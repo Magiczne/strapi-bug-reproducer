@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_widgets_related_advices",
+  "info": {
+    "displayName": "Recommended Advices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 128,
+      "required": false
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 128
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advice.advice"
+    }
+  }
+}

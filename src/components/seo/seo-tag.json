@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_seo_tags",
+  "info": {
+    "displayName": "SEO Tag",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 32,
+      "unique": true
+    }
+  }
+}

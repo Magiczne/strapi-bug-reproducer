@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_seo_seo_page_data",
+  "info": {
+    "displayName": "SEO Page Data",
+    "icon": "globe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 128
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 256
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.seo-tag"
+    },
+    "index": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "follow": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
